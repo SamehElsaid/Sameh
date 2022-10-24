@@ -263,7 +263,7 @@
                                             </a>
                                         </div>
                                         <div class="swiper-slide">
-                                            <a href="https://samehelsaid.github.io/api-weather/ target="_blank">
+                                            <a href="https://samehelsaid.github.io/api-weather/" target="_blank">
                                                 <div class="img text-center">
                                                     <img src="img/weather.png" alt="">
                                                 </div>
@@ -487,12 +487,11 @@
     </script>
     <script>
         $(window).on('load', function () {
-            setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
+            setTimeout(removeLoader, 2000);
         });
         function removeLoader() {
             $("#loadingDiv").fadeOut(500, function () {
-                // fadeOut complete. Remove the loading div
-                $("#loadingDiv").remove(); //makes page more lightweight 
+                $("#loadingDiv").remove();
             });
         }
     </script>
