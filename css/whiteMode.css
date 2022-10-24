@@ -1,0 +1,245 @@
+.whiteMode .nav {
+    background-image: none;
+    background-color: white !important;
+    box-shadow: -1px 0px 5px #0000003f;
+    z-index: 1111111111111;
+}
+
+.whiteMode .boxDarkMode {
+    box-shadow: -1px 0px 5px #0000007d;
+}
+
+.whiteMode .linear {
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+
+.whiteMode .nav h2 {
+    color: var(--main-color);
+}
+
+.whiteMode .home {
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+
+.whiteMode .overlay {
+    background-color: transparent;
+}
+
+.whiteMode .home #your-element-selector {
+    opacity: 0;
+}
+
+.whiteMode .home h1 span:first-of-type {
+    color: #333;
+}
+
+.whiteMode .home .text {
+    justify-content: start;
+    text-align: left;
+}
+
+.whiteMode .text .sec {
+    display: none;
+}
+
+.whiteMode .text .frist {
+    display: none;
+}
+
+.whiteMode .text h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 135px;
+}
+
+.whiteMode .social {
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 2px;
+    bottom: 13%;
+}
+
+.whiteMode  .social a {
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.whiteMode   li.active a {
+    background: #333 !important;
+    color: white !important;
+}
+
+.whiteMode .home .img-git {
+    top: 20%;
+    left: 2%;
+    transform: translate(10%);
+}
+
+
+.whiteMode  .my-logo ul a {
+    color: #333;
+    font-weight: bolder;
+}
+
+.whiteMode .nav.responseve {
+    background-color: transparent !important;
+}
+
+.whiteMode .nav.responseve ul a {
+    color: white;
+}
+
+.whiteMode .nav.responseve li.active a {
+    background-color: transparent !important;
+}
+
+.whiteMode .nav.responseve li a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.whiteMode .nav.responseve li.active a::before {
+    transition: .3s linear;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+}
+
+.whiteMode .nav.responseve li a::after {
+    transition: .3s linear;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: translateX(-110%);
+}
+
+.whiteMode .nav.responseve.active {
+    background: #333 !important;
+}
+
+.whiteMode .page:not(.home) {
+    background: white;
+}
+
+.whiteMode .home {
+    clip-path: polygon(0 0, 100% 0%, 100% 87%, 0% 100%);
+}
+
+.whiteMode .contact {
+    clip-path: polygon(0 13%, 100% 0%, 100% 100%, 0% 100%) !important;
+}
+
+.whiteMode .secBg {
+    clip-path: polygon(0 13%, 100% 0%, 100% 87%, 0% 100%);
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%) !important;
+}
+
+.whiteMode .aboutMe h2 {
+    color: #333 !important;
+}
+
+.whiteMode .secBg .aboutMe h2 {
+    color: white !important;
+}
+
+.whiteMode .aboutMe ul li {
+    color: #333;
+
+}
+
+.whiteMode .bg {
+    display: none;
+}
+
+.whiteMode .aboutMe ul li span {
+    font-weight: bolder;
+}
+
+.whiteMode .skils ul li {
+    font-size: 16px;
+}
+
+.whiteMode .aboutMe .cont p {
+    color: white;
+}
+
+.whiteMode .aboutMe ul {
+    margin: 30px 0;
+}
+
+.whiteMode .do .bgDo {
+    border-image: none;
+    border-width: 0;
+    border-radius: 10px 10px;
+    border-style: solid;
+}
+
+.whiteMode .do .bgDo h3 {
+    color: #333 !important;
+}
+
+.whiteMode .do .bgDo p {
+    color: #777777;
+}
+
+.whiteMode .do .bgDo::after {
+    background: white !important;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+
+}
+
+.whiteMode .do .bgDo .btn {
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%) !important;
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+
+
+
+.whiteMode input,
+.whiteMode textarea {
+    box-shadow: none;
+    border: 1px solid #eeeeee;
+}
+
+.whiteMode .about .aboutMe {
+    padding: 50px 0;
+}
+
+.whiteMode .swiper-button-next,
+.whiteMode .swiper-button-prev {
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%) !important;
+}
+.whiteMode .iconForm{
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-right:0 ;
+}
+.whiteMode form input,
+.whiteMode textarea{
+    color: black;
+}
+.whiteMode form input::placeholder,
+.whiteMode textarea::placeholder {
+    color: white;
+}
+.whiteMode .formControl.ok .iconForm{
+    background-color: transparent;
+    color: white;
+    
+}
+.whiteMode .home .text{
+    overflow: hidden;
+}
